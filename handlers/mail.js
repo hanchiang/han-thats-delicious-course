@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 const pug = require('pug');
 // inline css
-const juice = require('juice');
+const juice = require('juice'); // Inline CSS into HTML
 const htmlToText = require('html-to-text');
 const promisify = require('es6-promisify');
 

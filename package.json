@@ -19,6 +19,7 @@
   },
   "browserslist": "last 3 versions",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0-rc.1",
     "axios": "0.15.3",
     "body-parser": "^1.18.3",
     "connect-flash": "0.1.1",

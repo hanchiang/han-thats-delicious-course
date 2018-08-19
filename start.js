@@ -7,6 +7,8 @@ if (major < 7 || (major === 7 && minor <= 5)) {
   process.exit();
 }
 
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 // import environmental variables from our variables.env file
 require('dotenv').config({ path: 'variables.env' });
 
